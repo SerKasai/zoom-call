@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open-sans, Roboto;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ddd;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+    background-color: #000000;
+    flex-direction: row-reverse;
+}
+
+footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ddd;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+    background-color: #464646;
+}
+
+.container {
+    background-color: black;
+}
+
+.fa-angle-up {
+    font-size: small;
+    padding-top: 13px;
+}
+
+.app-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+.app-nav li {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+.app-nav li.active, .app-nav li:hover {
+    color: rgb(5, 163, 0);
+}
+.app-nav li i {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 22px;
+}
+
+.menu-left ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+.menu-left li {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+.menu-left li i {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 22px;
+}
+.menu-left li:hover {
+    color: rgb(5, 163, 0);
+}
+
+.menu-right {
+    display: flex;
+    background-color: #7c7c7c;
+}
+h4 {
+    color: red;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    color: white;
+    background-color: #464646;
+}
