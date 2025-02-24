@@ -26,6 +26,7 @@ footer {
     border-top: 1px solid #ddd;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
     background-color: #464646;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -35,13 +36,28 @@ footer {
     column-gap: 5px;
     row-gap: 10px;
     justify-content: space-evenly;
+    padding-bottom: 10px;
 }
 
 .child {
-    display: flex;
-    height: 130px;
+    height: 152px;
     color: white;
     background-color: #7c7c7c;
+    position: relative;
+}
+
+.immagine {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.scritta {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    background-color: #464646a4;
 }
 
 .fa-angle-up {
@@ -53,6 +69,7 @@ footer {
     display: flex;
     list-style: none;
     gap: 35px;
+    flex-wrap: wrap;
 }
 .app-nav li {
     text-align: center;
@@ -101,7 +118,3 @@ button {
     color: white;
     background-color: #464646;
 }
-/* .child i {
-    display: flex;
-    color: white;
-} */
